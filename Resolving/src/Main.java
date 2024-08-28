@@ -13,5 +13,11 @@ public class Main {
         System.out.println(Arrays.toString(mergeSortedArrayTask2));
         var mergeSortedArrayTask3 = new MergeSortedArray().ResolvingTask(new int[]{0},0,new int[]{1},1);
         System.out.println(Arrays.toString(mergeSortedArrayTask3));
+
+        System.out.println("Task 2:");
+        var removeElementTask1 = new RemoveElement().Resolving(new int[]{3,2,2,3},3);
+        System.out.println(Arrays.toString(removeElementTask1));
+        var removeElementTask2 = new RemoveElement().Resolving(new int[]{0, 1, 2, 2, 3, 0, 4, 2},2);
+        System.out.println(Arrays.toString(removeElementTask2));
     }
 }
