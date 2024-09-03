@@ -1,7 +1,7 @@
 public class MergeSortedArray
 {
     // Resolving task about sort array
-    public int[] ResolvingTask(int[] firstArray, int m, int[] secondArray, int n)
+    public static int[] ResolvingTask(int[] firstArray, int m, int[] secondArray, int n)
     {
       int firstArrayLenght = m - 1;
       int secondArrayLenght = n - 1;
