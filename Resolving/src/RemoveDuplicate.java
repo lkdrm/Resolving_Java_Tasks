@@ -4,7 +4,7 @@ import java.util.List;
 public class RemoveDuplicate
 {
     // Resolving task about removing duplicated numbers in array
-    public int[] Resolve(int[] numbers)
+    public static int[] Resolve(int[] numbers)
     {
         List<Integer> result = new ArrayList<>();
         int currentNumber = Integer.MIN_VALUE;

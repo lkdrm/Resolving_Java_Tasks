@@ -4,7 +4,7 @@ import java.util.List;
 public class RemoveElement
 {
     // Resolving task about RemoveElement
-    public int[] Resolving(int[] numbers, int removeValue)
+    public static int[] Resolving(int[] numbers, int removeValue)
     {
         List<Integer> withRemovedElements = new ArrayList<>();
 
