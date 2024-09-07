@@ -31,5 +31,12 @@ public class Main {
         System.out.printf("The result of first task is: %s. Length: %s%n",Arrays.toString(removeDuplicities3), removeDuplicities3.length);
         var removeDuplicities4 = RemoveDuplicate.Resolve2(new int[]{0,0,1,1,1,1,2,3,3});
         System.out.printf("The result of second task is: %s. Length: %s%n",Arrays.toString(removeDuplicities4), removeDuplicities4.length);
+
+        System.out.println("Task 5:");
+        var majorityResolve = MajorityElement.Resolve(new int[]{3,2,3});
+        System.out.printf("First [3,2,3] || Resolve : %s%n", majorityResolve);
+        var majorityResolve2 = MajorityElement.Resolve(new int[]{2, 2, 1, 1, 1, 2, 2});
+        System.out.printf("Second [2, 2, 1, 1, 1, 2, 2] || Resolve : %s%n", majorityResolve2);
+
     }
 }
