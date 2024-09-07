@@ -24,6 +24,12 @@ public class Main {
         var removeDuplicities = RemoveDuplicate.Resolve(new int[]{1,1,2});
         System.out.printf("The result of first task is: %s. Length: %s%n",Arrays.toString(removeDuplicities), removeDuplicities.length);
         var removeDuplicities2 = RemoveDuplicate.Resolve(new int[]{0,0,1,1,1,2,2,3,3,4});
-        System.out.printf("The result of first task is: %s. Length: %s%n",Arrays.toString(removeDuplicities2), removeDuplicities2.length);
+        System.out.printf("The result of second task is: %s. Length: %s%n",Arrays.toString(removeDuplicities2), removeDuplicities2.length);
+
+        System.out.println("Task 4:");
+        var removeDuplicities3 = RemoveDuplicate.Resolve2(new int[]{1,1,1,2,2,3});
+        System.out.printf("The result of first task is: %s. Length: %s%n",Arrays.toString(removeDuplicities3), removeDuplicities3.length);
+        var removeDuplicities4 = RemoveDuplicate.Resolve2(new int[]{0,0,1,1,1,1,2,3,3});
+        System.out.printf("The result of second task is: %s. Length: %s%n",Arrays.toString(removeDuplicities4), removeDuplicities4.length);
     }
 }
